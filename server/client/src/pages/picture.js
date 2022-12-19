@@ -55,7 +55,7 @@ console.log(title);
             one.concat().reverse().map((file,index)=>
             <>
           <div key={index} className='divs' style={{"position":"relative"}}>
-                <img src={`/${file.filepath}`} alt="img" style={{"height":"30rem","width":"auto","marginTop":"2rem"}} /><br />
+                <img src={`https://walkytalky.onrender.com/${file.filepath}`} alt="img" style={{"height":"30rem","width":"auto","marginTop":"2rem"}} /><br />
                 <div style={{"display":"flex","flexDirection":"row","justiyContent":"space-between"}}>
                 <h2 style={{"fontStyle":"italic","textAlign":"start","marginLeft":"2rem","width":"25rem","overflow":"auto","height":"5rem"}}>✌ {file.title}</h2>
                 <img onClick={()=>setComment(!comment)}  style={{"zIndex":"1","width":"3rem","height":"3rem","marginRight":"0rem","position":"relative"}} src={Com} alt='comment' />

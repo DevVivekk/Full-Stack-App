@@ -25,17 +25,21 @@ html{
 /* // Signin Signup css starts.... */
 
 .home{
-  min-width: 100vw;
+  width: 100vw;
+  min-width: 64rem;
   position: relative;
   height: auto;
+  margin-left: -1rem;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
 }
 .box{
-  min-width: 64rem;
+  min-width: 63rem;
   height: 64rem;
+  box-sizing: border-box;
+  padding-right:6rem;
 }
 input{
   background-color: rgb(212, 240, 243);
@@ -55,7 +59,7 @@ input:focus{
   position: absolute;
   top: 10;
   width: 100vw;
-  min-width: 50rem;
+  min-width: 60rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -75,7 +79,6 @@ input:focus{
 /* Styling of Main Home comp starts here */
 
 .home-comp{
-  width: 50vw;
   min-width: 63rem;
   height: auto;
   margin-top: 3rem;
