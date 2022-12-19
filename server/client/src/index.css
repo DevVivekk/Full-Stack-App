@@ -33,7 +33,7 @@ html{
   flex-wrap: wrap;
 }
 .box{
-  min-width: 63rem;
+  min-width: 60rem;
   height: 64rem;
 }
 input{
