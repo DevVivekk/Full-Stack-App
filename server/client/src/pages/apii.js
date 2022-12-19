@@ -1,10 +1,7 @@
 import axios from 'axios';
-
-const api = '/'
-
 export const singleFileUpload = async(data)=>{
     try{
-      const res =   await axios.post(api+'postit',data)
+      const res =   await axios.post('/postit',data)
       if(res.status===201){
         window.alert('Thanks for posting dear!')
        }
@@ -15,7 +12,7 @@ export const singleFileUpload = async(data)=>{
 
 export const getSingle = async()=>{
     try{
-        const {data} = await axios.get(api+'getit');
+        const {data} = await axios.get('/getit');
         return data;
     }catch(e){
         throw e
