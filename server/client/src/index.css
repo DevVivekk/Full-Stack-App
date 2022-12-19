@@ -30,10 +30,11 @@ html{
   height: auto;
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 .box{
-  min-width: 60rem;
+  min-width: 64rem;
   height: 64rem;
 }
 input{
@@ -54,7 +55,7 @@ input:focus{
   position: absolute;
   top: 10;
   width: 100vw;
-  min-width: 63rem;
+  min-width: 50rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
